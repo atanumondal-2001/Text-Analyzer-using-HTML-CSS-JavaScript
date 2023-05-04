@@ -48,7 +48,6 @@
     height: 45vh;
     border-left: 3px solid rgb(112, 112, 155);
     border-bottom: 5px solid rgb(112, 112, 155);
-    overflow: scroll;
     /*border: 2px solid blue;*/
 }
 
@@ -56,6 +55,8 @@
     padding: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
+    height: 44vh;
+    overflow: scroll;
 }
 
 .result .pos {
