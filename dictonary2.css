@@ -48,6 +48,7 @@
     height: 45vh;
     border-left: 3px solid rgb(112, 112, 155);
     border-bottom: 5px solid rgb(112, 112, 155);
+    overflow: scroll;
     /*border: 2px solid blue;*/
 }
 
