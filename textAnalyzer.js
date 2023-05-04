@@ -1,4 +1,4 @@
-console.log("Machine Starting");
+//console.log("Machine Starting");
 uppercase.addEventListener("click", () => {
     console.log("Changing characters into Uppercase");
     inputText.value = inputText.value.toUpperCase()

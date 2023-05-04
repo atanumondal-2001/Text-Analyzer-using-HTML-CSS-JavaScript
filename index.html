@@ -9,6 +9,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
     <!-- CSS file link -->
     <link rel="stylesheet" href="textAnalyzer.css">
 
@@ -39,7 +44,7 @@
                   My Other Projects
                 </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://github.com/atanumondal-2001/Flipkart_Homepage_Clone" target="_blank">Flipkart homepage Clone using HTML & CSS</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/atanumondal-2001/Flipkart_Homepage_Clone" target="_blank">Flipkart homepage Clone using HTML, CSS & JavaScript</a></li>
                             <li><a class="dropdown-item" href="https://github.com/atanumondal-2001/SimpleCalculator" target="_blank">Simple Calculator with Dark and Light mode using HTML, CSS & JavaScript</a></li>
                             <!-- <li>
                         <hr class="dropdown-divider">
@@ -60,18 +65,18 @@
     </nav>
 
 
-    <!-- Main Body -->
+    <!-- Main Body for Text Analyzer part -->
 
     <div class="mainBody">
         <div class="upperside">
             <h1 id="mainHeading" class="my-4 text-center">Welcome!! - Type Here to Transform</h1>
 
             <div id="TextArea" class="form-floating">
-                <grammarly-editor-plugin>
-                    <textarea class="form-control my-4 inputBox" placeholder="Enter Your Text Here..." id="inputText" style="height: 400px;"></textarea>
 
-                    <!--<label for="inputText">Enter Your Text Here......</label>-->
-                </grammarly-editor-plugin>
+                <textarea class="form-control my-4 inputBox" placeholder="Enter Your Text Here..." id="inputText" style="height: 200px;"></textarea>
+
+                <!--<label for="inputText">Enter Your Text Here......</label>-->
+                <!-- <grammarly-editor-plugin></grammarly-editor-plugin>-->
             </div>
 
         </div>
@@ -86,7 +91,27 @@
         <div class="paraInfo">
             <input type="textbox" placeholder="0" id="characterCount"> Characters & <input type="textbox" placeholder="0" id="wordCount"> Words
         </div>
+
+        <!-- Dictionary part -->
+        <div id="dictionary">
+            <h1 class="my-4 text-center">To Open Dictionary Application:
+                <a id="dicAnchor" href="dictionary2.html" target="_blank">Click Here</a>
+            </h1>
+        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <h4>&copy;All Rights Reserved to Atanu Mondal(2023)</h4>
+    </footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -94,12 +119,14 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Grammarly SDk  -->
+    <!-- Grammarly SDk  
     <script src="https://cdn.jsdelivr.net/npm/@grammarly/editor-sdk?clientId=client_JYBJYxLC1PpEMo2wgmLfRW"></script>
+        -->
 
-
-    <!-- Javascript file -->
+    <!-- Javascript file for text analyzer -->
     <script src="textAnalyzer.js"></script>
+
+
 
 </body>
 

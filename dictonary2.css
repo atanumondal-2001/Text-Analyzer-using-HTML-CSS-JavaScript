@@ -1,0 +1,62 @@
+#Heading2 {
+    /*text-align: center;*/
+    font-size: 50px;
+    font-family: cursive;
+    background-color: rgb(36, 179, 179);
+    height: 70px;
+    /*margin-top: 10px;*/
+}
+
+#mainBody2 {
+    min-height: 85vh;
+}
+
+.main {
+    text-align: center;
+}
+
+#InpBox {
+    font-size: 30px;
+    font-weight: 600;
+    width: 30%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid rgb(105, 105, 141);
+}
+
+#Dbutton {
+    margin-left: 15px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+#OutputHeading {
+    margin-left: 15%;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Output {
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 70%;
+    height: 45vh;
+    border-left: 3px solid rgb(112, 112, 155);
+    border-bottom: 5px solid rgb(112, 112, 155);
+    /*border: 2px solid blue;*/
+}
+
+.result {
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.result .pos {
+    font-style: italic;
+}

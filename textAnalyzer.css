@@ -22,6 +22,10 @@ body {
     border-radius: 50%;
 }
 
+.mainBody {
+    min-height: 85vh;
+}
+
 #TextArea {
     width: 70%;
     margin-left: 15%;
@@ -47,6 +51,8 @@ body {
 
 #mainHeading {
     font-family: cursive;
+    background-color: rgb(36, 179, 179);
+    height: 50px;
 }
 
 #characterCount {
@@ -59,4 +65,35 @@ body {
     text-align: center;
     background-color: rgb(163, 202, 235);
     width: 70px;
+}
+
+#heading {
+    margin-top: 40px;
+    background-color: rgb(36, 179, 179);
+    height: 80px;
+}
+
+#dictionary {
+    font-family: cursive;
+}
+
+#dicAnchor {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(56, 145, 56);
+    border-radius: 16px;
+}
+
+footer {
+    background-color: #101214;
+    color: white;
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /*position: fixed;*/
+    width: 100%;
+}
+
+footer>h4 {
+    font-size: 15px;
 }
