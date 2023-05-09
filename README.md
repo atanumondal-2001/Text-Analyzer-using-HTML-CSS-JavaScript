@@ -22,4 +22,4 @@ Dictionary Page:
 
 
 
-                                                                                                 THANK YOU
+                                                                 THANK YOU
